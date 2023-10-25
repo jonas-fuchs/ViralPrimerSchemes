@@ -25,9 +25,10 @@ If you just want to use the primers, just go for the `tsv` files in the primer s
 
 ...to all the people to have contributed to these primer designs by providing input alignments :beer: and wet-lab evaluated primer schemes :pizza:
 
-- **Mathias Schemmerer** (Universitätsklinikum Regensburg): HAV :beer::pizza:, HEV :beer:, ratHEV :beer:, BoDV :beer::pizza:
-- **Johanna Kleine** (Universitätsklinikum Freiburg): HEV 🍕
-- **Cindy Bötcher**, **Julian**: Polio :pizza:
+- **Mathias Schemmerer** (Universitätsklinikum Regensburg, Germany): HAV :beer::pizza:, HEV :beer:, ratHEV :beer:, BoDV :beer::pizza:
+- **Johanna Kleine** (Universitätsklinikum Freiburg, Germany): HEV 🍕
+- **Cindy Bötcher**, **Julian** (Robert-Koch-Institut, Freiburg, Germany): Polio :pizza:
+- **Martin Hölzer** (Robert-Koch-Institut, Freiburg, Germany): SARS-CoV-2 :beer:
 
 
 # Contributing
