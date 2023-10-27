@@ -24,11 +24,11 @@ If you just want to use the primers, just go for the `tsv` files in the primer s
 
 # Large THANK you...
 
-...to all the people to have contributed to these primer designs by providing input alignments :beer: and wet-lab evaluated primer schemes :pizza:
+...to all the people to have contributed to these primer designs by providing input alignments :beer:, did primer designs :wine_glass: and wet-lab evaluated primer schemes :cocktail:
 
-- **Mathias Schemmerer** (Universitätsklinikum Regensburg, Germany): HAV :beer::pizza:, HEV :beer:, ratHEV :beer:, BoDV :beer::pizza:
-- **Johanna Kleine** (Universitätsklinikum Freiburg, Germany): HEV 🍕
-- **Cindy Bötcher**, **Julian** (Robert-Koch-Institut, Freiburg, Germany): Polio :pizza:
+- **Mathias Schemmerer** (Universitätsklinikum Regensburg, Germany): HAV :beer::cocktail:, HEV :beer:, ratHEV :beer:, BoDV :beer::cocktail:
+- **Johanna Kleine** (Universitätsklinikum Freiburg, Germany): HEV :cocktail::wine_glass::beer:
+- **Cindy Bötcher**, **Julian** (Robert-Koch-Institut, Freiburg, Germany): Polio :cocktail:
 - **Martin Hölzer** (Robert-Koch-Institut, Freiburg, Germany): SARS-CoV-2 :beer:
 
 
