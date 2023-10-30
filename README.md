@@ -28,8 +28,8 @@ If you just want to use the primers, just go for the `tsv` files in the primer s
 
 - **Mathias Schemmerer** (Universitätsklinikum Regensburg, Germany): HAV :beer::cocktail:, HEV :beer:, ratHEV :beer:, BoDV :beer::cocktail:
 - **Johanna Kleine** (Universitätsklinikum Freiburg, Germany): HEV :cocktail::wine_glass::beer:
-- **Cindy Bötcher**, **Julian Kreibich** (Robert-Koch-Institut, Freiburg, Germany): Polio :cocktail:
-- **Martin Hölzer** (Robert-Koch-Institut, Freiburg, Germany): SARS-CoV-2 :beer:
+- **Sindy Böttcher**, **Julian Kreibich** (Robert Koch Institute, Berlin, Germany): Polio :cocktail:
+- **Martin Hölzer** (Robert Koch Institute, Berlin, Germany): SARS-CoV-2 :beer:
 
 
 # Contributing
