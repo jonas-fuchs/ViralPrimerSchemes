@@ -36,7 +36,10 @@ If you just want to use the primers, just go for the `tsv` files in the primer s
 
 If you designed and/or wet-lab evaluated primer schemes that we should include here, just contribute via an issue or pull request!
 
+# Citing this repo
 
+If you use primers from this repository please cite:
+Coming soon!
 
 
 
