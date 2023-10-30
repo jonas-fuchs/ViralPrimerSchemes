@@ -6,18 +6,18 @@ Primers can contain ambiguous characters in order to achieve pan-specificity. We
 
 # Schemes
 
-| Virus      | Genotypes       | Amplicon Size | GenomeRecovery | Evaluated             | Primers                                      | Input alignment                         | Full varVAMP output                 |
-|------------|-----------------|---------------|----------------|-----------------------|----------------------------------------------|-----------------------------------------|-------------------------------------|
-| HEV        | -               | x-x           | x %            | :white_check_mark:    | [tsv](varvamp_data/x/primers.tsv)            | [aln](input_alignments/x.aln)           | [output](varvamp_data/x)            |
-| HEV        | -               | x-x           | x %            | :white_check_mark:    | [tsv](varvamp_data/x/primers.tsv)            | [aln](input_alignments/x.aln)           | [output](varvamp_data/x)            |
-| ratHEV     | all             | 1200-1700     | 97.4 %         | :white_check_mark:    | [tsv](varvamp_data/ratHEV/primers.tsv)       | [aln](input_alignments/rat_HEV.aln)     | [output](varvamp_data/ratHEV)       |
-| Polio      | 1-3             | 1000-1400     | 99.6 %         | :white_check_mark:    | [tsv](varvamp_data/Polio/primers.tsv)        | [aln](input_alignments/polio1-3.aln)    | [output](varvamp_data/Polio)        |
-| HAV        | all             | 1000-1600     | 95.6 %         | :white_check_mark:    | [tsv](varvamp_data/HAV/primers.tsv)          | [aln](input_alignments/HAV.aln)         | [output](varvamp_data/HAV)          |
-| BoDV       | all             | 400-550       | 98.6 %         | :white_check_mark:    | [tsv](varvamp_data/BoDV/primers.tsv)         | [aln](input_alignments/BoDV.aln)        | [output](varvamp_data/BoDV)         |
-| SARS-CoV-2 | B.1-XBB         | 260-365       | 99.7 %         | :black_square_button: | [tsv](varvamp_data/SARS-CoV-2_1/primers.tsv) | [aln](input_alignments/SARS-CoV-2.aln)  | [output](varvamp_data/SARS-CoV-2_1) |
-| SARS-CoV-2 | B.1-XBB         | 700-800       | 99.7 %         | :black_square_button: | [tsv](varvamp_data/SARS-CoV-2_2/primers.tsv) | [aln](input_alignments/SARS-CoV-2.aln)  | [output](varvamp_data/SARS-CoV-2_2) |
-| Norovirus  | non-G.II.4 G.II | 1500-2000     | 99.0 %         | :black_square_button: | [tsv](varvamp_data/Norovirus_1/primers.tsv)  | [aln](input_alignments/Norovirus_1.aln) | [output](varvamp_data/Norovirus_1)  |
-| Norovirus  | G.II.4          | 1200-1600     | 99.6 %         | :black_square_button: | [tsv](varvamp_data/Norovirus_2/primers.tsv)  | [aln](input_alignments/Norovirus_2.aln) | [output](varvamp_data/Norovirus_2)  |
+| Virus      | Genotypes                             | Amplicon Size | GenomeRecovery | Evaluated             | Primers                                       | Input alignment                         | Full varVAMP output                 |
+|------------|---------------------------------------|---------------|----------------|-----------------------|-----------------------------------------------|-----------------------------------------|-------------------------------------|
+| HEV        | 3 (f2b, f1a, f1b, e, f2a, j, uc1, 1g) | 1000-1500     | 99.0 %         | :white_check_mark:    | [tsv](varvamp_data/HEV_1/cluster1primers.tsv) | [aln](input_alignments/HEV_1.aln)       | [output](varvamp_data/x)            |
+| HEV        | 3 (c, h1, m, i, uc, l, a, g, f2b)     | 1000-1500     | 99.3 %         | :white_check_mark:    | [tsv](varvamp_data/HEV_2/cluster2primers.tsv) | [aln](input_alignments/HEV_2.aln)       | [output](varvamp_data/x)            |
+| ratHEV     | all                                   | 1200-1700     | 97.4 %         | :white_check_mark:    | [tsv](varvamp_data/ratHEV/primers.tsv)        | [aln](input_alignments/rat_HEV.aln)     | [output](varvamp_data/ratHEV)       |
+| Polio      | 1-3                                   | 1000-1400     | 99.6 %         | :white_check_mark:    | [tsv](varvamp_data/Polio/primers.tsv)         | [aln](input_alignments/polio1-3.aln)    | [output](varvamp_data/Polio)        |
+| HAV        | all                                   | 1000-1600     | 95.6 %         | :white_check_mark:    | [tsv](varvamp_data/HAV/primers.tsv)           | [aln](input_alignments/HAV.aln)         | [output](varvamp_data/HAV)          |
+| BoDV       | all                                   | 400-550       | 98.6 %         | :white_check_mark:    | [tsv](varvamp_data/BoDV/primers.tsv)          | [aln](input_alignments/BoDV.aln)        | [output](varvamp_data/BoDV)         |
+| SARS-CoV-2 | B.1-XBB                               | 260-365       | 99.7 %         | :black_square_button: | [tsv](varvamp_data/SARS-CoV-2_1/primers.tsv)  | [aln](input_alignments/SARS-CoV-2.aln)  | [output](varvamp_data/SARS-CoV-2_1) |
+| SARS-CoV-2 | B.1-XBB                               | 700-800       | 99.7 %         | :black_square_button: | [tsv](varvamp_data/SARS-CoV-2_2/primers.tsv)  | [aln](input_alignments/SARS-CoV-2.aln)  | [output](varvamp_data/SARS-CoV-2_2) |
+| Norovirus  | non-G.II.4 G.II                       | 1500-2000     | 99.0 %         | :black_square_button: | [tsv](varvamp_data/Norovirus_1/primers.tsv)   | [aln](input_alignments/Norovirus_1.aln) | [output](varvamp_data/Norovirus_1)  |
+| Norovirus  | G.II.4                                | 1200-1600     | 99.6 %         | :black_square_button: | [tsv](varvamp_data/Norovirus_2/primers.tsv)   | [aln](input_alignments/Norovirus_2.aln) | [output](varvamp_data/Norovirus_2)  |
 
 If you just want to use the primers, just go for the `tsv` files in the primer section. If you are interested in the full varVAMP output (here you can also find additional non-used primers) have a look at the input alignment to get a feeling for the variability and have a look [here](https://github.com/jonas-fuchs/varVAMP/blob/master/docs/output.md) for an explanation on the output files. If you want to design primers yourself, the outputs can also help you in understanding [how the software works](https://github.com/jonas-fuchs/varVAMP/blob/master/docs/how_varvamp_works.md) and [how to prepare the data](https://github.com/jonas-fuchs/varVAMP/blob/master/docs/preparing_the_data.md) and set the parameters for a successful scheme design.
 
@@ -28,7 +28,7 @@ If you just want to use the primers, just go for the `tsv` files in the primer s
 
 - **Mathias Schemmerer** (Universitätsklinikum Regensburg, Germany): HAV :beer::cocktail:, HEV :beer:, ratHEV :beer:, BoDV :beer::cocktail:
 - **Johanna Kleine** (Universitätsklinikum Freiburg, Germany): HEV :cocktail::wine_glass::beer:
-- **Cindy Bötcher**, **Julian** (Robert-Koch-Institut, Freiburg, Germany): Polio :cocktail:
+- **Cindy Bötcher**, **Julian Kreibich** (Robert-Koch-Institut, Freiburg, Germany): Polio :cocktail:
 - **Martin Hölzer** (Robert-Koch-Institut, Freiburg, Germany): SARS-CoV-2 :beer:
 
 
