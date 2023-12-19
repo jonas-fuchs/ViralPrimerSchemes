@@ -1,0 +1,109 @@
+VARVAMP log 
+
+MODE = qpcr
+
+WARNING: The following sequences are considerably smaller than the alignment mean (7439 nt) and might cause alignment trimming:
+MT432082.1/1-7251 (7282 nt)
+MT432083.1/1-7251 (7282 nt)
+MT432086.1/1-7251 (7282 nt)
+MT432088.1/1-7252 (7283 nt)
+MT432089.1/1-7247 (7278 nt)
+MT432090.1/1-7252 (7283 nt)
+MT432091.1/1-7251 (7282 nt)
+MT432092.1/1-7251 (7282 nt)
+MT432093.1/1-7249 (7280 nt)
+MT432094.1/1-7251 (7282 nt)
+MT432095.1/1-7251 (7281 nt)
+MT432096.1/1-7252 (7283 nt)
+MT432098.1/1-7253 (7284 nt)
+MT432100.1/1-7248 (7279 nt)
+MT432101.1/1-7256 (7287 nt)
+MT432112.1/1-7250 (7281 nt)
+MT432116.1/1-7254 (7285 nt)
+MT432117.1/1-7251 (7282 nt)
+MT432118.1/1-7251 (7282 nt)
+MT432120.1/1-7251 (7282 nt)
+MT432122.1/1-7258 (7289 nt)
+MT432126.1/1-7251 (7282 nt)
+MT432128.1/1-7252 (7283 nt)
+MT432134.1/1-7247 (7278 nt)
+MT432135.1/1-7247 (7278 nt)
+MT432136.1/1-7252 (7283 nt)
+MT432138.1/1-7250 (7281 nt)
+MT432140.1/1-7250 (7281 nt)
+MT432142.1/1-7251 (7282 nt)
+MT432143.1/1-7250 (7281 nt)
+MT432147.1/1-7252 (7283 nt)
+MT432149.1/1-7249 (7281 nt)
+MT432150.1/1-7212 (7243 nt)
+MT432151.1/1-7250 (7281 nt)
+OQ286209.1/1-7231 (7272 nt)
+OQ286210.1/1-7231 (7272 nt)
+
+Automatic parameter selection set -pa 3.
+WARNING: setting the degeneracy of probes higher than 2 can result in variable probe design. Consider reducing!
+
+ARG SETTINGS
+
+THRESHOLD = 0.87
+PRIMER_ALLOWED_N_AMB = 4
+PROBE_ALLOWED_N_AMB = 3
+TEST_DELTAG_N_AMPLICONS = 50
+DELTAG_CUTOFF = -4
+
+CONFIG SETTINGS
+
+PRIMER_TMP = (57, 63, 60)
+PRIMER_GC_RANGE = (35, 65, 50)
+PRIMER_SIZES = (18, 24, 21)
+PRIMER_HAIRPIN = 47
+PRIMER_MAX_POLYX = 3
+PRIMER_MAX_DINUC_REPEATS = 3
+PRIMER_GC_END = (1, 3)
+PRIMER_MAX_DIMER_TMP = 47
+PRIMER_MIN_3_WITHOUT_AMB = 3
+PCR_MV_CONC = 100
+PCR_DV_CONC = 2
+PCR_DNTP_CONC = 0.8
+PCR_DNA_CONC = 15
+PRIMER_TM_PENALTY = 2
+PRIMER_GC_PENALTY = 0.2
+PRIMER_SIZE_PENALTY = 0.5
+PRIMER_MAX_BASE_PENALTY = 8
+PRIMER_3_PENALTY = (32, 16, 8, 4, 2)
+PRIMER_PERMUTATION_PENALTY = 0.1
+QPROBE_TMP = (64, 70, 67)
+QPROBE_SIZES = (20, 30, 25)
+QPROBE_GC_RANGE = (40, 80, 60)
+QPROBE_GC_END = (0, 4)
+QPRIMER_DIFF = 2
+QPROBE_TEMP_DIFF = (5, 10)
+QPROBE_DISTANCE = (4, 15)
+QAMPLICON_LENGTH = (70, 200)
+QAMPLICON_GC = (40, 60)
+QAMPLICON_DEL_CUTOFF = 4
+
+PROGRESS
+Job:	 Checking config. 
+Result:	 config file passed
+Job:	 Preprocessing alignment and cleaning gaps. 
+Result:	 28 gaps with 196 nucleotides
+Job:	 Creating consensus sequences. 
+Result:	 length of the consensus is 7365 nt
+Job:	 Finding primer regions. 
+Result:	 58.6 % of the consensus sequence will be evaluated for primers
+Job:	 Digesting into kmers. 
+Result:	 11819 kmers
+Job:	 Filtering for primers. 
+Result:	 718 fw and 834 rw potential primers
+Job:	 Finding qPCR probes. 
+Result:	 271 potential qPCR probes
+Job:	 Finding unique amplicons with probe. 
+Result:	 35 unique amplicons with internal probe
+Job:	 Filtering amplicons for deltaG. 
+Result:	 4 non-overlapping qPCR schemes that passed deltaG cutoff
+Job:	 Finalizing output. 
+Result:	 all done 
+
+varVAMP 0.9.3 finished in 55.253312 sec!
+2023-09-18 12:39:05.268170

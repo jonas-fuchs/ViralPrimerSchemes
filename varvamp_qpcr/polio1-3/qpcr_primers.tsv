@@ -1,0 +1,13 @@
+qpcr_scheme	oligo_type	start	stop	seq	size	gc_best	temp_best	mean_gc	mean_temp	score
+QPCR_SCHEME_0	probe	405	430	cggcccctgaatgcggctaatccya	25	60.0	66.8	62.0	68.0	1.0
+QPCR_SCHEME_0	left	366	390	carggtgtgaagagcctattgagc	24	50.0	59.9	52.1	60.7	1.9
+QPCR_SCHEME_0	right	501	523	aggaaacacggacacccaaagt	22	50.0	60.4	50.0	60.4	1.3
+QPCR_SCHEME_1	probe	5899	5922	cgcttyagggccgcygcraaccc	23	65.2	67.2	71.7	70.1	3.3
+QPCR_SCHEME_1	left	5860	5883	aargtcatygggatgcaygttgg	23	47.8	59.9	50.0	60.9	2.7
+QPCR_SCHEME_1	right	5927	5951	tytcaccttgrmtctgagtgaagt	24	41.7	58.0	43.8	58.8	8.4
+QPCR_SCHEME_2	probe	7280	7309	tgctcccmgagtactchacaytgtaccgc	29	51.7	66.5	56.3	68.2	6.2
+QPCR_SCHEME_2	left	7242	7266	agctaaaatyagragygtrccaat	24	41.7	59.0	37.5	56.9	7.4
+QPCR_SCHEME_2	right	7337	7360	acccaatccaattcgactgaggt	23	47.8	60.0	47.8	60.0	1.7
+QPCR_SCHEME_3	probe	4916	4946	tgccttrccacacactaawggacarcatct	30	46.7	66.8	46.7	66.5	6.9
+QPCR_SCHEME_3	left	4854	4877	ytsaacatggcmatggcwactga	23	47.8	59.3	47.8	60.4	5.1
+QPCR_SCHEME_3	right	4955	4979	yctaacyctggargatttrtccat	24	41.7	57.6	41.7	56.6	9.5

@@ -1,0 +1,12 @@
+ambiguous_consensus	276	300	QPCR_SCHEME_0_probe	1.5	+
+ambiguous_consensus	239	263	QPCR_SCHEME_0_left	1.7	+
+ambiguous_consensus	373	395	QPCR_SCHEME_0_right	1.3	-
+ambiguous_consensus	1692	1720	QPCR_SCHEME_1_probe	2.5	+
+ambiguous_consensus	1662	1684	QPCR_SCHEME_1_left	1.1	+
+ambiguous_consensus	1730	1753	QPCR_SCHEME_1_right	2.8	-
+ambiguous_consensus	1866	1892	QPCR_SCHEME_2_probe	2.1	+
+ambiguous_consensus	1840	1862	QPCR_SCHEME_2_left	4.1	+
+ambiguous_consensus	1967	1989	QPCR_SCHEME_2_right	1.5	-
+ambiguous_consensus	1006	1030	QPCR_SCHEME_3_probe	6.6	-
+ambiguous_consensus	859	879	QPCR_SCHEME_3_left	3.6	+
+ambiguous_consensus	1035	1059	QPCR_SCHEME_3_right	5.1	-

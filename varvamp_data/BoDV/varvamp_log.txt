@@ -1,58 +1,0 @@
-VARVAMP log 
-
-MODE = tiled
-
-settings that can be adjusted via arguments
-
-THRESHOLD = 0.94
-PRIMER_ALLOWED_N_AMB = 2
-AMPLICON_OPT_LENGTH = 400
-AMPLICON_MAX_LENGTH = 550
-MIN_OVERLAP = 100
-
-config settings
-
-PRIMER_TMP = (57, 63, 60)
-PRIMER_GC_RANGE = (35, 65, 50)
-PRIMER_SIZES = (18, 24, 21)
-PRIMER_HAIRPIN = 47
-PRIMER_MAX_POLYX = 3
-PRIMER_MAX_DINUC_REPEATS = 3
-PRIMER_GC_END = (0, 4)
-PRIMER_MAX_DIMER_TMP = 47
-PRIMER_MIN_3_WITHOUT_AMB = 3
-PCR_MV_CONC = 100
-PCR_DV_CONC = 2
-PCR_DNTP_CONC = 0.8
-PCR_DNA_CONC = 15
-PRIMER_TM_PENALTY = 2
-PRIMER_GC_PENALTY = 0.2
-PRIMER_SIZE_PENALTY = 0.5
-PRIMER_MAX_BASE_PENALTY = 8
-PRIMER_3_PENALTY = (32, 16, 8, 4, 2)
-PRIMER_PERMUTATION_PENALTY = 0.1
-
-progress
-Job:	 Checking config. 
-Result:	 config file passed
-Job:	 Preprocessing alignment and cleaning gaps. 
-Result:	 4 gaps with 76 nucleotides
-Job:	 Creating consensus sequences. 
-Result:	 length of the consensus is 8842 nt
-Job:	 Finding conserved primer regions. 
-Result:	 84.3 % conserved
-Job:	 Digesting into kmers. 
-Result:	 22709 kmers
-Job:	 Filtering for primers. 
-Result:	 3575 fw and 3811 rw potential primers
-Job:	 Considering only high scoring primers. 
-Result:	 157 fw and 147 rw primers
-Job:	 Finding potential amplicons. 
-Result:	 389 potential amplicons
-Job:	 Creating amplicon scheme. 
-Result:	 98.6 % total coverage with 27 amplicons
-Job:	 Finalizing output. 
-Result:	 all done 
-
-varVAMP finished in 16.28 sec!
-2023-04-17 10:05:52.298080
