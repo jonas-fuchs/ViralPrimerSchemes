@@ -25,6 +25,8 @@ Primers can contain ambiguous characters in order to achieve pan-specificity. We
 | Polio | 3         | :white_check_mark: | [tsv](varvamp_qpcr/polio3/qpcr_primers.tsv)   | [aln](input_alignments/polio3.aln)   | [output](varvamp_qpcr/polio3)   |
 | Polio | 1-3       | :white_check_mark: | [tsv](varvamp_qpcr/polio1-3/qpcr_primers.tsv) | [aln](input_alignments/polio1-3.aln) | [output](varvamp_qpcr/polio1-3) |
 
+
+## Which files should I check?
 If you just want to use the primers, just go for the `tsv` files in the primer section. If you are interested in the full varVAMP output (here you can also find additional non-used primers) have a look at the input alignment to get a feeling for the variability and have a look [here](https://github.com/jonas-fuchs/varVAMP/blob/master/docs/output.md) for an explanation on the output files. If you want to design primers yourself, the outputs can also help you in understanding [how the software works](https://github.com/jonas-fuchs/varVAMP/blob/master/docs/how_varvamp_works.md) and [how to prepare the data](https://github.com/jonas-fuchs/varVAMP/blob/master/docs/preparing_the_data.md) and set the parameters for a successful scheme design.
 
 
@@ -45,7 +47,10 @@ If you designed and/or wet-lab evaluated primer schemes that we should include h
 ## Citing this repo
 
 If you use primers from this repository please cite:
-Coming soon!
+
+**varVAMP: automated pan-specific primer design for tiled full genome sequencing and qPCR of highly diverse viral pathogens.**
+
+(paper currently under preparation)
 
 
 
