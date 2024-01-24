@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/709673803.svg)](https://zenodo.org/doi/10.5281/zenodo.10562882)
+
 # ViralPrimerSchemes
 This repo contains wet-lab evaluated and non-evaluated primer schemes for full-viral genome sequencing of highly diverse viral pathogens designed with [varVAMP](https://github.com/jonas-fuchs/varVAMP).
 
