@@ -15,7 +15,7 @@ Primers can contain ambiguous characters in order to achieve pan-specificity. We
 | HAV        | all                    | 1000-1600     | 95.6 %         | :white_check_mark:    | [tsv](varvamp_tiled/HAV/primers.tsv)           | [aln](input_alignments/HAV.aln)         | [output](varvamp_tiled/HAV)          |
 | BoDV       | all                    | 400-550       | 98.6 %         | :white_check_mark:    | [tsv](varvamp_tiled/BoDV/primers.tsv)          | [aln](input_alignments/BoDV.aln)        | [output](varvamp_tiled/BoDV)         |
 | SARS-CoV-2 | B.1-XBB                | 260-365       | 99.7 %         | :black_square_button: | [tsv](varvamp_tiled/SARS-CoV-2_1/primers.tsv)  | [aln](input_alignments/SARS-CoV-2.aln)  | [output](varvamp_tiled/SARS-CoV-2_1) |
-| SARS-CoV-2 | B.1-XBB                | 700-800       | 99.7 %         | :black_square_button: | [tsv](varvamp_tiled/SARS-CoV-2_2/primers.tsv)  | [aln](input_alignments/SARS-CoV-2.aln)  | [output](varvamp_tiled/SARS-CoV-2_2) |
+| SARS-CoV-2 | B.1-XBB                | 700-800       | 99.7 %         | :white_check_mark:  | [tsv](varvamp_tiled/SARS-CoV-2_2/primers.tsv)  | [aln](input_alignments/SARS-CoV-2.aln)  | [output](varvamp_tiled/SARS-CoV-2_2) |
 | Norovirus  | non-G.II.4 G.II        | 1500-2000     | 99.0 %         | :black_square_button: | [tsv](varvamp_tiled/Norovirus_1/primers.tsv)   | [aln](input_alignments/Norovirus_1.aln) | [output](varvamp_tiled/Norovirus_1)  |
 | Norovirus  | G.II.4                 | 1200-1600     | 99.6 %         | :black_square_button: | [tsv](varvamp_tiled/Norovirus_2/primers.tsv)   | [aln](input_alignments/Norovirus_2.aln) | [output](varvamp_tiled/Norovirus_2)  |
 
