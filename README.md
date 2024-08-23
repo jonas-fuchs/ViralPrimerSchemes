@@ -1,5 +1,8 @@
 [![DOI](https://zenodo.org/badge/709673803.svg)](https://zenodo.org/doi/10.5281/zenodo.10562882)
 
+# Important notice!
+Primer schemes have now been migrated to [labs.primalscheme](https://labs.primalscheme.com/). Rather then contributing to this repo, we now encourage that you contribute primer schemes designed with varVAMP to [primerschemes](https://github.com/quick-lab/primerschemes). Use [primal-page](https://github.com/ChrisgKent/primal-page) to create correctly formatted input data.
+
 # ViralPrimerSchemes
 This repo contains wet-lab evaluated and non-evaluated primer schemes for full-viral genome sequencing of highly diverse viral pathogens designed with [varVAMP](https://github.com/jonas-fuchs/varVAMP).
 
@@ -48,11 +51,7 @@ If you designed and/or wet-lab evaluated primer schemes that we should include h
 
 ## Citing this repo
 
-If you use primers from this repository please cite:
-
-**varVAMP: automated pan-specific primer design for tiled full genome sequencing and qPCR of highly diverse viral pathogens.**
-
-(paper currently under preparation)
+If you use primers from this repository please [cite](https://doi.org/10.1101/2024.05.08.593102).
 
 
 
